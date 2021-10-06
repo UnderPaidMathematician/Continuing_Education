@@ -1,0 +1,28 @@
+# create your drupal and postgres config here, based off the last assignment
+
+version: '3.1'  # if no version is specified then v1 is assumed. Recommend v2 minimum
+
+services:  # containers. same as docker run
+  drupal: # a friendly name. this is also DNS name inside network
+    image: drupal:8.6 # Optional if you use build:
+    build: .
+    ports:
+      - "8080:80"
+    volumes: # Optional, same as -v in docker run
+      - drupal-modules:/var/www/html/modules
+      - drupal-profiles:/var/www/html/profiles
+      - drupal-sites:/var/www/html/sites
+      - drupal-themes:/var/www/html/themes
+      - drupal-data:/var/lib/postgresql/data
+  postgres:
+    image: postgres:12.1
+    environment:
+      - POSTGRES_PASSWORD=mypasswd
+
+volumes: # Optional, same as docker volume create
+  drupal-modules:
+  drupal-profiles:
+  drupal-sites:
+  drupal-themes:
+  drupal-data:
+
