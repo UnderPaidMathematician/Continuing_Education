@@ -79,7 +79,7 @@ print(f"The computer chose: {choice_list[computer_choice]}")
 print(list_choices[computer_choice])
 
 # Final outcome
-print(f"You {results[(result_matrix[player_choice_index][computer_choice])]}!")
+print(f"You {results[(result_matrix[player_choice_index][computer_choice])]}!\n")
 
 
 
