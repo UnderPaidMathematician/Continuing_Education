@@ -7,7 +7,7 @@ numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 
 
 print("Welcome to the PyPassword Generator!")
-nr_letters= int(input("How many letters would you like in your password?\n")) 
+nr_letters = int(input("How many letters would you like in your password?\n")) 
 nr_symbols = int(input(f"How many symbols would you like?\n"))
 nr_numbers = int(input(f"How many numbers would you like?\n"))
 
@@ -27,7 +27,6 @@ for i in range(nr_letters):
 list_symbols = []
 for i in range(nr_symbols):
     list_symbols.append(symbols[random.randint(0,len(symbols)-1)])
-
 
 # numbers
 list_numbers = []
@@ -56,7 +55,8 @@ for i in range(nr_letters + nr_symbols + nr_numbers):
     # it chooses a random index from the ones that are still available
     my_password = my_password + the_matrix[random.choice(valid_choices)].pop()
 
-print(my_password)
+print("Keep it secret, keep it safe! ~ Gandalf")
+print(f"Here is the password: {my_password}")
                 
 
     
