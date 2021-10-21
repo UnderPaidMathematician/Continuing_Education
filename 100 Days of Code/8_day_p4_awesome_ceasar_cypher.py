@@ -1,4 +1,13 @@
+import os
+from art import logo
+
+
+# Clear the console
+os.system('cls' if os.name == 'nt' else 'clear')
+
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+
+print(logo)
 
 #TODO-1: Create a function called 'encrypt' that takes the 'text' and 'shift' as inputs.
 
@@ -23,7 +32,7 @@ alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n'
 # encrypt True encrypts the text
 # encrypt False decrypts the text
 # Shift is the agreed upon offset
-def encript_decript(text, encrypt, shift):
+def encrypt_decrypt(text, encrypt, shift):
 
     # return a list of uppercase values
     uppercase = [x.upper() for x in alphabet]
@@ -51,8 +60,6 @@ def encript_decript(text, encrypt, shift):
     # Here are my indexes based on whether or not they are lowercase
     lowercase_idx = [x for x in range(97, 123)]
     uppercase_idx = [x for x in range(65,91)]
-
-    print(lowercase_idx)
     
     result_text = ""
     for c in text:
@@ -78,23 +85,46 @@ def encript_decript(text, encrypt, shift):
     print(result_text)
 
 # Program starts here
-text = input("Enter Cypher text: ")
 
-# The user can choose to either encrypt or decrypt the message.
-# I turned this into a boolean value.
-bad_user_input = True
-while bad_user_input:
-    user_encrypt = input("Type 'E' to Encrypt the message, or 'D' to Decrypt the message.").lower()
-    if user_encrypt == "e":
-        encrypt = True
-        bad_user_input = False
-    elif user_encrypt == "d":
-        encrypt = False
-        bad_user_input = False
+keep_going = True
+while keep_going:
 
-# If they choose a number greater than 26 I want to catch it so I used a modulus
-# I am also not allowing negative numbers so I used absolute value
-shift = abs(int(input("Type the shift number: "))%26)
+    # Ensure only alphanumeric text is written
+    non_alpha_text = True
+    while non_alpha_text:
+        text = input("Enter Cypher text: ")
+        if text.isalpha():
+            non_alpha_text = False
 
-encript_decript(text=text, encrypt=encrypt, shift=shift)
+
+    # The user can choose to either encrypt or decrypt the message.
+    # I turned this into a boolean value.
+    bad_user_input = True
+    while bad_user_input:
+        user_encrypt = input("Type 'E' to Encrypt the message, or 'D' to Decrypt the message: ").lower()
+        if user_encrypt == "e":
+            encrypt = True
+            bad_user_input = False
+        elif user_encrypt == "d":
+            encrypt = False
+            bad_user_input = False
+
+    # If they choose a number greater than 26 I want to catch it so I used a modulus
+    # I am also not allowing negative numbers so I used the absolute value
+    shift = abs(int(input("Type the shift number: "))%26)
+
+    encrypt_decrypt(text=text, encrypt=encrypt, shift=shift)
+
+    # Check to see if the user wants to continue.
+    user_bad_input = True
+    while user_bad_input:
+        user_keep_going = input("Should we continue encoding or decoding? (Y or N)").lower()
+        if user_keep_going == "y":
+            keep_going = True
+            user_bad_input = False
+        elif user_keep_going == "n":
+            keep_going = False
+            user_bad_input = False
+            print("Good bye!")
+
 
