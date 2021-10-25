@@ -1,0 +1,63 @@
+############DEBUGGING#####################
+
+# Describe Problem
+def my_function():
+#   bug range does not go to 20 changed to 21
+  for i in range(1, 21):
+    if i == 20:
+      print("You got it")
+my_function()
+
+# Reproduce the Bug
+from random import randint
+dice_imgs = ["❶", "❷", "❸", "❹", "❺", "❻"]
+# Indexes start at zero so changed 1,6 to 0,5
+dice_num = randint(0, 5)
+print(dice_imgs[dice_num])
+
+# Play Computer
+year = int(input("What's your year of birth?" ))
+if year > 1980 and year < 1994:
+  print("You are a millenial.")
+#   should have >= here to account for 1994
+elif year >= 1994:
+  print("You are a Gen Z.")
+else:
+    # added a message for everyone else.
+    print("You are neither gen z or a millenial")
+
+
+# Fix the Errors
+# Changed this to integer
+age = int(input("How old are you?"))
+
+if age >= 17:
+    # tab error moved the print statement
+    # Note different states have different age limits according to https://worldpopulationreview.com/state-rankings/driving-age-by-state
+    # Also age should be the age limit for the state not your personal age
+    # removed {age from the f string}
+    print(f"You can drive at age 17 in the state of Colorado.")
+
+# added else statement for people who cant drive
+else:
+    print("You are not old enough to drive.")
+
+#Print is Your Friend
+pages = 0
+word_per_page = 0
+pages = int(input("Number of pages: "))
+# == is a true false statement not a variable assignment
+word_per_page = int(input("Number of words per page: "))
+total_words = pages * word_per_page
+print(total_words)
+
+#Use a Debugger
+def mutate(a_list):
+  b_list = []
+  for item in a_list:
+    new_item = item * 2
+    # tab issue we want to append the items within the for loop
+    b_list.append(new_item)
+  print(b_list)
+
+mutate([1,2,3,5,8,13])
