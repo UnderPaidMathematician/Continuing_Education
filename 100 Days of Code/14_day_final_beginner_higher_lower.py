@@ -51,9 +51,6 @@ while notGameOver:
     else:
         winner = 'b'
 
-    # Display the cards
-    print(f"A: {first_card_count}")
-    print(f"B: {second_card_count}")
 
     print(f"Choose A: {first_card['name']}, {first_card['description']} from {first_card['country']}")
     print(vs)
@@ -69,7 +66,9 @@ while notGameOver:
         player_correct_count += 1
     else:
         notGameOver = False
-        print(f"You lose! But you got {player_correct_count} correct. Better luck next time.")
+        print(f"\nA: {first_card['name']}, {first_card['description']} from {first_card['country']} had {first_card['follower_count']} followers.")
+        print(f"B: {second_card['name']}, {second_card['description']} from {second_card['country']} had {second_card['follower_count']} followers.\n")
+        print(f"You lose! You got {player_correct_count} correct. Better luck next time.")
 
     # second card becomes A and second card is the next card in the list.
     first_card_index += 1
