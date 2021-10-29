@@ -24,6 +24,7 @@ I removed the hints.
 '''
 # Interesting so this is a pretty bland blackjack game. Cards are not removed from the deck as they are drawn. o.O
 # Challenge excepted!
+# Working on building a black jack game with classes.
 def deck_builder():
     card_values = [[1,11], 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
     suits = ["Hearts", "Diamonds", "Spades", "Clubs"]

@@ -22,7 +22,10 @@ game_card_list = data
 # Shuffle the list order
 shuffle(game_card_list)
 
-
+# Checking for ties (One was found the list had 50 values but the set had only 49, so we need to account for ties)
+all_numbers_list = [a["follower_count"] for a in game_card_list]
+print(len(all_numbers_list))
+print(len(set(all_numbers_list)))
 
 notGameOver = True
 first_card_index = 0
