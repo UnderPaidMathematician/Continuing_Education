@@ -10,7 +10,7 @@ class Table():
     for i in range(1, handCount + 1):
       self.hands.append(Hand(f"Player {i}"))
     self.deck = Deck(Card.GetDefaultPokerDeck(), footSize)
-    self.discard = Deck(Card.GetDefaultPokerDeck (), 0)
+    self.discard = Deck(Card.GetDefaultPokerDeck(), 0)
 
   def AddHand(self):
     self.lastPlayerNumber += 1
