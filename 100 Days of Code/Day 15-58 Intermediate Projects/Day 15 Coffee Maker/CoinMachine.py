@@ -19,10 +19,3 @@ class CoinMachine():
     
     def increaseBalance(self, amount):
         self.currentUser.changeBalance(amount)
-
-
-
-
-
-    
-    

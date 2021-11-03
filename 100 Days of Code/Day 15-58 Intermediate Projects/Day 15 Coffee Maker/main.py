@@ -31,3 +31,6 @@ for name in coffeeNameList:
     print(name)
     print(testCoffeeMaker.coffeeMakerMenu.getRecipe(coffeeName=name))
     print(testCoffeeMaker.coffeeMakerMenu.getCost(coffeeName=name))
+
+userResponse = testCoffeeMaker.displayUserOrderMenu()
+

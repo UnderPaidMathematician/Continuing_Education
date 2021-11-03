@@ -2,11 +2,12 @@ from Menu import Menu
 from CurrentResources import CurrentResources
 from Customer import Customer
 from HelperFunctions import HelperFunctions
+from prettytable import PrettyTable
 
 class CoffeeMaker():
     def __init__(self):
-        self.coffeeMakerMenu = Menu
-        self.coffeeMakerResources = CurrentResources
+        self.coffeeMakerMenu = Menu()
+        self.coffeeMakerResources = CurrentResources()
         self.userList = []
         self.loggedInUser = None
     
@@ -74,6 +75,20 @@ class CoffeeMaker():
                 print(f"{i+1}: {v}")
             custResponse = HelperFunctions.askIntegerRange("Please enter the number of the person who wants to login.", minimum= 1, maximum= i+1)
             self.setLoginUser(custResponse)
+    
+    def getStatusList(self):
+        pass
+
+
+    def displayUserOrderMenu(self):
+        print(f"Hello {self.loggedInUser.getName()} You have a balance of ${self.loggedInUser.getBalance()}.")
+        print("Menu Options: Please choose an option from below.")
+        myPrettyTable = PrettyTable()
+        myPrettyTable.add_column("Option", [1,2,3,4,5,6,7,8,9,10])
+        myPrettyTable.add_column("Task", ["Insert Coins","Make Esspresso", "Make Latte", "Make Cappuccino", "Add Water", "Add Milk", "Add Coffee","Get Levels Report" ,"Cash Out Balance","Logout"], align="l")
+        print(myPrettyTable)
+        userOrderResponse = HelperFunctions.askIntegerRange("Enter an option", 1, 9)
+        return userOrderResponse
 
     def logOutUser(self):
         '''Loggs out current customer.'''
@@ -84,15 +99,3 @@ class CoffeeMaker():
         '''Displays coffee options for users. Shows either prices or refill options.'''
         HelperFunctions.clear_screen()
         print(f"Hello {self.loggedInUser} You have a balance of {self.loggedInUser.getBalance()}what would you like to do?")
-
-
-
-    
-
-
-
-
-
-
-
-    

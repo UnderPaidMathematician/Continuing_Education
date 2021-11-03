@@ -51,7 +51,7 @@ class HelperFunctions():
         os.system('cls')
 
         # Get all of the filepaths in a specific folder.
-        directory = r'100 Days of Code\Day 15-58 Intermediate Projects\Day 15 Coffee Maker'
+        directory = r'100 Days of Code\Day 15-58 Intermediate Projects\New Day 15 Coffee Maker'
         listOfPaths = []
         for filename in os.listdir(directory):
             if filename.endswith(".py"):
@@ -71,7 +71,7 @@ class HelperFunctions():
         isDone = False
         while not isDone:
             # fullText = re.sub('\n{2,}', '\n\n', fullText)
-            fullText = re.sub('\n\s*\n\s*\n', '\n\n', fullText)
+            fullText = re.sub('\n\s*\n\s*\n*', '\n\n', fullText)
             newTextSize = len(fullText)
             if oldTextsize == newTextSize:
                 isDone = True
