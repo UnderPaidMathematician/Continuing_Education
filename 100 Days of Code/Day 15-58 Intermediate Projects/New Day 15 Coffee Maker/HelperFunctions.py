@@ -71,7 +71,7 @@ class HelperFunctions():
         isDone = False
         while not isDone:
             # fullText = re.sub('\n{2,}', '\n\n', fullText)
-            fullText = re.sub('\n\s*\n\s*\n*', '\n\n', fullText)
+            fullText = re.sub("\n\s*\n(?:\s*\n)*", "\n\n", fullText)
             newTextSize = len(fullText)
             if oldTextsize == newTextSize:
                 isDone = True

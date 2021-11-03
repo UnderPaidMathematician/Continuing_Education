@@ -1,6 +1,7 @@
+# Changed InitialData to a Data class
 class InitialData():
     def __init__(self) -> None:
-        
+        # uppercase because these will never change
         self.INGREDIENTS = {
         "water": 300,
         "milk": 200,
