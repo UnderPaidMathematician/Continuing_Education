@@ -1,31 +1,29 @@
-import copy
-
 class Customer():
-    def __init__(self, customerName, currentBalance) -> None:
-        self.customerName = customerName
-        self.currentBalance = currentBalance
+    def __init__(self, name, balance) -> None:
+        self.Name = name
+        self.balance = balance
 
-    def getBalance(self):
-        return self.currentBalance
+    def GetBalance(self):
+        return self.balance
 
-    def getName(self):
-        return copy.deepcopy(self.customerName)
+    def GetName(self):
+        return self.Name
 
-    def hasBalanceAvailable(self, recipe):
+    def CanAfford(self, recipe):
         costOfCoffee = recipe.Product.Price
-        if costOfCoffee <= self.currentBalance:
+        if costOfCoffee <= self.balance:
             return True
         else:
-            print(f"You need to add more funds. {recipe.Name} costs ${recipe.Product.Price}")
-            print(f"You only have a balance of {self.currentBalance}")
             return False
     
-    def changeBalance(self, amount):
-        self.currentBalance += amount
+    def AddBalance(self, amount):
+        self.balance += amount
 
-    def changeName(self, newName):
-        self.customerName = newName
+    def SubtractBalance(self, amount):
+        self.balance -= amount
 
-    def getCustomerInfo(self):
-        print(f"Hello {self.getName()} your current balance is: ${self.getBalance():.0f}")
+    def SetName(self, newName):
+        self.Name = newName
+
+
 

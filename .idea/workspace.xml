@@ -3,7 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="5bdffa93-afb4-415f-ba03-85e4ce4dd1b3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 15 Coffee Maker/HelperFunctions.py" beforeDir="false" afterPath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 15 Coffee Maker/HelperFunctions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/New Day 15 Coffee Maker/CoinMachine.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/New Day 15 Coffee Maker/Customer.py" beforeDir="false" afterPath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/New Day 15 Coffee Maker/Customer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/New Day 15 Coffee Maker/Product.py" beforeDir="false" afterPath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/New Day 15 Coffee Maker/Product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/New Day 15 Coffee Maker/Recipe.py" beforeDir="false" afterPath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/New Day 15 Coffee Maker/Recipe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/New Day 15 Coffee Maker/Resource.py" beforeDir="false" afterPath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/New Day 15 Coffee Maker/Resource.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/New Day 15 Coffee Maker/ResourceManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/New Day 15 Coffee Maker/ResourceManager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/New Day 15 Coffee Maker/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/New Day 15 Coffee Maker/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +57,7 @@
       <recent name="C:\Users\jason\Documents\GitHub\Continuing_Education\100 Days of Code\Day 15-58 Intermediate Projects\Day 16 Object Oriented Programming" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.day_16_p2">
+  <component name="RunManager" selected="Python.main (1)">
     <configuration name="14_day_final_beginner_higher_lower" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Continuing_Education" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -96,6 +102,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Continuing_Education" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 19 EtchASketch" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 19 EtchASketch/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Continuing_Education" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -118,10 +146,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="testCode" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Continuing_Education" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 19 EtchASketch" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 19 EtchASketch/testCode.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.day_16_p2" />
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.testCode" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.day_16_p2" />
         <item itemvalue="Python.14_day_final_beginner_higher_lower" />
       </list>
     </recent_temporary>
@@ -139,6 +191,7 @@
       <workItem from="1635366977703" duration="1103000" />
       <workItem from="1635370342177" duration="1112000" />
       <workItem from="1635794085442" duration="2810000" />
+      <workItem from="1636211721416" duration="1826000" />
     </task>
     <servers />
   </component>
@@ -147,7 +200,9 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Continuing_Education$14_day_final_beginner_higher_lower.coverage" NAME="14_day_final_beginner_higher_lower Coverage Results" MODIFIED="1635800969196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100 Days of Code" />
-    <SUITE FILE_PATH="coverage/Continuing_Education$day_16_p2.coverage" NAME="day_16_p2 Coverage Results" MODIFIED="1635802252001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 16 Object Oriented Programming" />
-    <SUITE FILE_PATH="coverage/Continuing_Education$main.coverage" NAME="main Coverage Results" MODIFIED="1635801857046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 16 Object Oriented Programming" />
+    <SUITE FILE_PATH="coverage/Continuing_Education$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1636213474462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 19 EtchASketch" />
+    <SUITE FILE_PATH="coverage/Continuing_Education$day_16_p2.coverage" NAME="day_16_p2 Coverage Results" MODIFIED="1636211768192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 16 Object Oriented Programming" />
+    <SUITE FILE_PATH="coverage/Continuing_Education$main.coverage" NAME="main Coverage Results" MODIFIED="1636212133158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 16 Object Oriented Programming" />
+    <SUITE FILE_PATH="coverage/Continuing_Education$testCode.coverage" NAME="testCode Coverage Results" MODIFIED="1636212335468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 19 EtchASketch" />
   </component>
 </project>

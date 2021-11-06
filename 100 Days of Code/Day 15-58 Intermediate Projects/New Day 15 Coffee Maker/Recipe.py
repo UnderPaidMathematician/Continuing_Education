@@ -15,11 +15,11 @@ class Recipe():
         ret.Ingredients = [i.Copy() for i in self.Ingredients]
         return ret
         
-    def getName(self):
+    def GetName(self):
         return self.Name
     
-    def getIngredients(self):
+    def GetIngredients(self):
         return self.Ingredients
     
-    def getCost(self):
+    def GetCost(self):
         return self.Product.Price

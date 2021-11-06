@@ -1,6 +1,5 @@
 from Resource import Resource
 from Recipe import Recipe
-import copy
 
 class ResourceManager():
     # Initialize with our two dictionaries
@@ -21,16 +20,15 @@ class ResourceManager():
                 recipe.Ingredients.append(Resource(c,d))
                 self.recipes.append(recipe)
 
-    def CreateProduct(self, recipe, customer, coinMachine):
+    def CreateProduct(self, recipe, coinMachine):
         isResourcesAvailable = self.HasResourcesAvailable(recipe)
-        isBalanceAvailable = customer.hasBalanceAvailable(recipe)
-        if isResourcesAvailable == True and isBalanceAvailable == True:
+        
+        if isResourcesAvailable == True:
             self.displayResourceLevels()
-            print(f"Brewing {recipe.getName()}")
             # Remove balance from customers account for the item purchased 
             customer.changeBalance(-1*recipe.Product.Price)
             print(customer.getCustomerInfo())
-            
+            isBalanceAvailable = customer.hasBalanceAvailable(recipe)
             for recipeResource in recipe.Ingredients:
                 getMatchingResource = Resource.GetByName(self.availableResources, recipeResource.Name)
                 getMatchingResource.changeQuantity(-1*recipeResource.Quantity)
@@ -45,20 +43,22 @@ class ResourceManager():
             print("Add more ingredients")
             return False
 
-    def displayResourceLevels(self):
-        for r in self.availableResources:
-            print(f"{r.Name} has {r.Quantity} available.")        
 
     def getResourcesList(self):
-        return copy.deepcopy(self.availableResources)
-
+        return [r.Copy() for r in self.availableResources]
+        
     def getRecipe(self, name):
         for r in self.recipes:
             if r.getName() == name:
-                return copy.deepcopy(r)
+                return r
+    
+    def GetRecipe(self, name):
+        for r in self.recipes:
+            if r.getName() == name:
+                return r.Copy()        
 
-    def getAllRecipes(self):
-        return copy.deepcopy(self.recipes)
+    def GetRecipeList(self):
+        return [r.Copy() for r in self.recipes]
 
     def HasResourcesAvailable(self, recipe):
         isResourceAvailable = []
@@ -66,15 +66,16 @@ class ResourceManager():
             amountNeeded = r.getQuantity()
             amountAvailable = r.GetByName(self.availableResources, r.getName()).getQuantity()
             if amountNeeded <= amountAvailable:
-                isResourceAvailable.append(True)
+                return True
             else:
-                isResourceAvailable.append(False)
-        
-        collectFalse =  [x for x in isResourceAvailable if x == False]
-
-        if collectFalse == []:
-            # this looks backwards but if there was no false then we have all resources available.
-            return True
-        else:
-            return False
+                return False
+    
+    def GetMissingResources(self):
+        missingResource = []
+        for r in recipe.Ingredients:
+            amountNeeded = r.getQuantity()
+            amountAvailable = r.GetByName(self.availableResources, r.getName()).getQuantity()
+            if amountNeeded >= amountAvailable:
+                return True
+                   
         

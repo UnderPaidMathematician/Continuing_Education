@@ -10,13 +10,13 @@ class Resource():
         return Resource(self.Name, self.Quantity)
 
     
-    def getName(self):
+    def GetName(self):
         return self.Name
     
-    def getQuantity(self):
+    def GetQuantity(self):
         return self.Quantity
     
-    def changeQuantity(self, amount):
+    def ChangeQuantity(self, amount):
         self.Quantity += amount
     
     @staticmethod

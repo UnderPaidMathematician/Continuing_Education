@@ -1,7 +1,13 @@
 from InitialData import InitialData
 from ResourceManager import ResourceManager
 from Customer import Customer
-from CoinMachine import CoinMachine
+from HelperFunctions import HelperFunctions
+
+
+def displayResourceLevels(resourceList):
+    for r in resourceList:
+        print(f"{r.Name} has {r.Quantity} available.")        
+
 
 # Building my Data class
 data = InitialData()
@@ -17,13 +23,11 @@ allRecipes = resourceManager.getAllRecipes()
 for currentRecipe in allRecipes:
     recipe = resourceManager.getRecipe(currentRecipe.getName())
 
-
 customer = Customer("Jason", 0)
-coinMachine = CoinMachine(customer)
 
 isProductFinished = False
 while isProductFinished == False:
-    coffeeMade = resourceManager.CreateProduct(recipe, customer, coinMachine)
+    coffeeMade = resourceManager.CreateProduct(recipe, customer)
     if coffeeMade == True:
         isProductFinished = True
 
