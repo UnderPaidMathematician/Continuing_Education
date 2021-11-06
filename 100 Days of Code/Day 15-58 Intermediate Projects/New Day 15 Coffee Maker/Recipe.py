@@ -9,7 +9,12 @@ class Recipe():
         self.Name = name
         self.Ingredients = []
         self.Product = Product(name, price)
-    
+
+    def Copy(self):
+        ret = Recipe(self.Name, self.Product.price)
+        ret.Ingredients = [i.Copy() for i in self.Ingredients]
+        return ret
+        
     def getName(self):
         return self.Name
     

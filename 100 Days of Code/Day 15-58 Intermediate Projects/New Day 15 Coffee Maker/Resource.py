@@ -6,11 +6,18 @@ class Resource():
         self.Name = name
         self.Quantity = quantity
     
+    def Copy(self):
+        return Resource(self.Name, self.Quantity)
+
+    
     def getName(self):
         return self.Name
     
     def getQuantity(self):
         return self.Quantity
+    
+    def changeQuantity(self, amount):
+        self.Quantity += amount
     
     @staticmethod
     def GetByName(resourceList, name):

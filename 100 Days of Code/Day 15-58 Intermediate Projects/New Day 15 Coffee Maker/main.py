@@ -1,5 +1,7 @@
 from InitialData import InitialData
 from ResourceManager import ResourceManager
+from Customer import Customer
+from CoinMachine import CoinMachine
 
 # Building my Data class
 data = InitialData()
@@ -10,8 +12,18 @@ resourceManager = ResourceManager(data.INGREDIENTS, data.RECIPES)
 # Uses the Initial Ingredients to put the coffee machine at its initial values for water, milk and coffee 
 resourceList = resourceManager.getResourcesList()
 
-recipe = resourceManager.getRecipe("cappuccino")
+allRecipes = resourceManager.getAllRecipes()
 
-isResourcesAvailable = resourceManager.HasResourcesAvailable(recipe)
+for currentRecipe in allRecipes:
+    recipe = resourceManager.getRecipe(currentRecipe.getName())
 
-print(isResourcesAvailable)
+
+customer = Customer("Jason", 0)
+coinMachine = CoinMachine(customer)
+
+isProductFinished = False
+while isProductFinished == False:
+    coffeeMade = resourceManager.CreateProduct(recipe, customer, coinMachine)
+    if coffeeMade == True:
+        isProductFinished = True
+
