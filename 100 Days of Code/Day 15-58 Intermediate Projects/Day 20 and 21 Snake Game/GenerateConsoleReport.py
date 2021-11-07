@@ -1,0 +1,3 @@
+from HelperFunctions import HelperFunctions
+
+HelperFunctions.writeAllPythonFilestoConsole()
