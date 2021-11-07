@@ -1,6 +1,6 @@
 from turtle import Turtle
 
-class SnakeSegment(Turtle):
+class SnakeSegment():
     def __init__(self) -> None:
         self.segment = Turtle(shape='arrow')
         self.segment.color(255,255,255)
