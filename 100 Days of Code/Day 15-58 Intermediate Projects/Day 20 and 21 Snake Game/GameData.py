@@ -1,8 +1,5 @@
 # By building this class am I basically making my making my variables global? I.E. all parts of my program have access to it? Or is it the fact that it is contained within a class stop it from being truely global?
 
-import re
-
-
 class GameData():
     def __init__(self, heartBeatTime, screenHeight, screenWidth, goFasterModulus, score) -> None:
         # Determines the speed of the game

@@ -3,13 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="5bdffa93-afb4-415f-ba03-85e4ce4dd1b3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/New Day 15 Coffee Maker/CoinMachine.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/New Day 15 Coffee Maker/Customer.py" beforeDir="false" afterPath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/New Day 15 Coffee Maker/Customer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/New Day 15 Coffee Maker/Product.py" beforeDir="false" afterPath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/New Day 15 Coffee Maker/Product.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/New Day 15 Coffee Maker/Recipe.py" beforeDir="false" afterPath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/New Day 15 Coffee Maker/Recipe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/New Day 15 Coffee Maker/Resource.py" beforeDir="false" afterPath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/New Day 15 Coffee Maker/Resource.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/New Day 15 Coffee Maker/ResourceManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/New Day 15 Coffee Maker/ResourceManager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/New Day 15 Coffee Maker/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/New Day 15 Coffee Maker/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 19 EtchASketch/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 19 EtchASketch/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 20 and 21 Snake Game/GameData.py" beforeDir="false" afterPath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 20 and 21 Snake Game/GameData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 20 and 21 Snake Game/SnakeBuilder.py" beforeDir="false" afterPath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 20 and 21 Snake Game/SnakeBuilder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 20 and 21 Snake Game/SnakeSegment.py" beforeDir="false" afterPath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 20 and 21 Snake Game/SnakeSegment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 20 and 21 Snake Game/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 20 and 21 Snake Game/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +48,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -192,6 +190,8 @@
       <workItem from="1635370342177" duration="1112000" />
       <workItem from="1635794085442" duration="2810000" />
       <workItem from="1636211721416" duration="1826000" />
+      <workItem from="1636399970284" duration="2000" />
+      <workItem from="1636546601171" duration="2009000" />
     </task>
     <servers />
   </component>

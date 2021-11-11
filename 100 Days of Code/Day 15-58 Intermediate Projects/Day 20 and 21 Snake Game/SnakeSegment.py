@@ -7,12 +7,16 @@ class SnakeSegment():
         self.segment.penup()
     
     def Copy(self):
+        copiedSegment = SnakeSegment()
+        print(copiedSegment.segment.pos())
+        copiedSegment.segment.pos = self.segment.pos
+        print(copiedSegment.segment.pos())
+        copiedSegment.segment.heading = self.segment.heading
+        return copiedSegment
+
+    def GetSegment(self):
         return self.segment
-    
-    def TurnRight(self):
-        self.segment.right(90)
-    
-    def TurnLeft(self):
-        self.segment.left(90)
+
+
 
 
