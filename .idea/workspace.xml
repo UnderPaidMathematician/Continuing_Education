@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bdffa93-afb4-415f-ba03-85e4ce4dd1b3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 19 EtchASketch/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 19 EtchASketch/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 20 and 21 Snake Game/GameData.py" beforeDir="false" afterPath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 20 and 21 Snake Game/GameData.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 20 and 21 Snake Game/SnakeBuilder.py" beforeDir="false" afterPath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 20 and 21 Snake Game/SnakeBuilder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 20 and 21 Snake Game/SnakeSegment.py" beforeDir="false" afterPath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 20 and 21 Snake Game/SnakeSegment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 20 and 21 Snake Game/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 20 and 21 Snake Game/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yolo5/yoloTest.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,6 +187,7 @@
       <workItem from="1636211721416" duration="1826000" />
       <workItem from="1636399970284" duration="2000" />
       <workItem from="1636546601171" duration="2009000" />
+      <workItem from="1637095783306" duration="10000" />
     </task>
     <servers />
   </component>
