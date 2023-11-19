@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bdffa93-afb4-415f-ba03-85e4ce4dd1b3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Yolo5/yoloTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Continuing_Education.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Continuing_Education.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenLabeling/main/class_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OpenLabeling/main/class_list.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenLabeling/main/input/img_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenLabeling/main/input/img_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenLabeling/main/input/img_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenLabeling/main/input/people_walking.mp4" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,12 +19,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -28,7 +37,7 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1z6XlZ7Osq4xuhAq0lzEECDmYbG" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -36,22 +45,30 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 16 Object Oriented Programming" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 25 CSV Files" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jason\Documents\GitHub\Continuing_Education\100 Days of Code\Day 15-58 Intermediate Projects\Day 25 CSV Files" />
+      <recent name="C:\Users\jason\Documents\GitHub\Continuing_Education\100 Days of Code\Day 15-58 Intermediate Projects\Day 24 Mail Merge" />
+      <recent name="C:\Users\jason\Documents\GitHub\Continuing_Education\100 Days of Code\Day 15-58 Intermediate Projects\Day 24 Files Dictionaries Paths" />
+      <recent name="C:\Users\jason\Documents\GitHub\Continuing_Education\LazyProgrammerRL\Exercises\MultiArmedBanditEpsilonGreedy" />
       <recent name="C:\Users\jason\Documents\GitHub\Continuing_Education\100 Days of Code\Day 15-58 Intermediate Projects\Day 16 Object Oriented Programming" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jason\Documents\GitHub\Continuing_Education\100 Days of Code\Day 15-58 Intermediate Projects\Day 24 Mail Merge\Mail Merge Project Start" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.main (1)">
-    <configuration name="14_day_final_beginner_higher_lower" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.main (2)">
+    <configuration name="PongScreen" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Continuing_Education" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -59,21 +76,21 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100 Days of Code" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 22 Pong Game" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100 Days of Code/14_day_final_beginner_higher_lower.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 22 Pong Game/PongScreen.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="day_16_p2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Continuing_Education" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -81,14 +98,14 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 16 Object Oriented Programming" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 16 Object Oriented Programming/day_16_p2.py" />
+      <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -99,18 +116,34 @@
       <module name="Continuing_Education" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 19 EtchASketch" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 24 Mail Merge/Mail Merge Project Start" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 19 EtchASketch/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 24 Mail Merge/Mail Merge Project Start/main.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Continuing_Education" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 25 CSV Files" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 25 CSV Files/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -125,21 +158,21 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 16 Object Oriented Programming" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 24 Files Dictionaries Paths" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 16 Object Oriented Programming/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 24 Files Dictionaries Paths/main.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="testCode" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="snake" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Continuing_Education" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -147,14 +180,14 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 19 EtchASketch" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 24 Files Dictionaries Paths" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 19 EtchASketch/testCode.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 24 Files Dictionaries Paths/snake.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -163,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (2)" />
         <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.testCode" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.day_16_p2" />
-        <item itemvalue="Python.14_day_final_beginner_higher_lower" />
+        <item itemvalue="Python.snake" />
+        <item itemvalue="Python.PongScreen" />
       </list>
     </recent_temporary>
   </component>
@@ -188,17 +221,54 @@
       <workItem from="1636399970284" duration="2000" />
       <workItem from="1636546601171" duration="2009000" />
       <workItem from="1637095783306" duration="10000" />
+      <workItem from="1637512824652" duration="53000" />
+      <workItem from="1639068497517" duration="2619000" />
+      <workItem from="1639346586802" duration="1591000" />
+      <workItem from="1640185516993" duration="86000" />
+      <workItem from="1640265853626" duration="10207000" />
+      <workItem from="1640296874761" duration="584000" />
+      <workItem from="1640298042812" duration="4145000" />
+      <workItem from="1640623467955" duration="1394000" />
+      <workItem from="1640700320551" duration="10000" />
+      <workItem from="1646176059457" duration="11463000" />
+      <workItem from="1646254660645" duration="38000" />
+      <workItem from="1646255692206" duration="4831000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 24 Files Dictionaries Paths/scoreboard.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Continuing_Education$14_day_final_beginner_higher_lower.coverage" NAME="14_day_final_beginner_higher_lower Coverage Results" MODIFIED="1635800969196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100 Days of Code" />
-    <SUITE FILE_PATH="coverage/Continuing_Education$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1636213474462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 19 EtchASketch" />
+    <SUITE FILE_PATH="coverage/Continuing_Education$Bandit.coverage" NAME="Bandit Coverage Results" MODIFIED="1640277605992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LazyProgrammerRL/Exercises/MultiArmedBanditEpsilonGreedy" />
+    <SUITE FILE_PATH="coverage/Continuing_Education$test.coverage" NAME="test Coverage Results" MODIFIED="1640358657931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LazyProgrammerRL/Exercises/MultiArmedBanditEpsilonGreedy" />
+    <SUITE FILE_PATH="coverage/Continuing_Education$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1646241361923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 24 Mail Merge/Mail Merge Project Start" />
     <SUITE FILE_PATH="coverage/Continuing_Education$day_16_p2.coverage" NAME="day_16_p2 Coverage Results" MODIFIED="1636211768192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 16 Object Oriented Programming" />
-    <SUITE FILE_PATH="coverage/Continuing_Education$main.coverage" NAME="main Coverage Results" MODIFIED="1636212133158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 16 Object Oriented Programming" />
+    <SUITE FILE_PATH="coverage/Continuing_Education$main.coverage" NAME="main Coverage Results" MODIFIED="1646235108939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 24 Files Dictionaries Paths" />
     <SUITE FILE_PATH="coverage/Continuing_Education$testCode.coverage" NAME="testCode Coverage Results" MODIFIED="1636212335468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100 Days of Code/Day 15-58 Intermediate Projects/Day 19 EtchASketch" />
   </component>
 </project>
